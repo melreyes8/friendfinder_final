@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href=".\assets\css\style.css">
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<!-- 10 Questions -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-10">
+				<form name="myForm">
+					<div class="input-group">
+	  					<div>
+							<h3>Your Name</h3>
+		  					<input id="name" type="text" class="form-control" name="name">
+	  					</div>
+	  					<div>
+							<h3>Your Photo</h3>
+		  						<input id="image" type="text" class="form-control" name="img">
+	  						</div>
+	  					<input class="submit" type="submit" name="Submit">
+					</div>
+				</form>
+
+            <br>
+
+				<!-- Question 1	 -->
+				<h4>1.	How would you initially spend your huge lottery winning?</h4>
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select from the drop-down menu
+				    <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu q1">
+				    <li value="1"><a href="#">Go on a shopping splurge</a></li>
+				    <li value="2"><a href="#">Buy a mansion</a></li>
+				    <li value="3"><a href="#">Donate to charities</a></li>
+						<li value="4"><a href="#">Go on vacation travel</a></li>
+						<li value="5"><a href="#">Pay all your debts</a></li>                    
+				  </ul>
+				</div> <!-- End of question 1 -->
+				
+				<br>
+
+				<!-- Question 2 -->
+				<h4>2.	What is your preferred transportation method when traveling to the city?</h4>
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select from the drop-down menu
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q2">
+				    <li value="1"><a href="#">BART</a></li>
+				    <li value="2"><a href="#">Uber or Lift</a></li>
+				    <li value="3"><a href="#">Bus</a></li>
+						<li value="4"><a href="#">Drive your own car</a></li>
+						<li value="5"><a href="#">Carpool</a></li>                    
+				  </ul>
+				</div> <!-- End of question 2 -->				
+
+				<br>
+
+				<!-- Question 3 -->
+				<h4>3.	How do you spend your weekends mostly?</h4>
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select from the drop-down menu
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q3">
+				    <li value="1"><a href="#">Read books</a></li>
+				    <li value="2"><a href="#">Sleep and get plenty of rest</a></li>
+				    <li value="3"><a href="#">Hangout with family and friends</a></li>
+						<li value="4"><a href="#">Go on a weekend get-away</a></li>
+						<li value="5"><a href="#">Do chores and run errands</a></li>                    
+				  </ul>
+				</div> <!-- End of question 3 -->
+                    
+                <br>
+                    
+				<!-- Question 4 -->
+				<h4>4.	What movie genre do you like the most?</h4>
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select from the drop-down menu
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q4">
+				    <li value="1"><a href="#">Science Fiction</a></li>
+				    <li value="2"><a href="#">Action</a></li>
+				    <li value="3"><a href="#">Drama</a></li>
+						<li value="4"><a href="#">Comedy</a></li>
+						<li value="5"><a href="#">Thriller</a></li>                    
+				  </ul>
+				</div> <!-- End of question 4 -->
+                    
+                <br>
+                
+                <!-- Question 5 -->
+				<h4>5.	What is your favorite landmark in San Francisco?</h4>
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select from the drop-down menu
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q5">
+				    <li value="1"><a href="#">Golden Gate Bridge</a></li>
+				    <li value="2"><a href="#">Coit Tower</a></li>
+				    <li value="3"><a href="#">Lombard Street</a></li>
+						<li value="4"><a href="#">Alcatraz Island</a></li>
+						<li value="5"><a href="#">Pier 39</a></li>                    
+				  </ul>
+				</div> <!-- End of question 5 -->
+                
+                <br>
+                
+                <!-- Question 6 -->
+				<h4>6.	What type of sport do you mainly watch?</h4>
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select from the drop-down menu
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q6">
+				    <li value="1"><a href="#">Basketball</a></li>
+				    <li value="2"><a href="#">Football</a></li>
+				    <li value="3"><a href="#">Tennis</a></li>
+						<li value="4"><a href="#">Baseball</a></li>
+						<li value="5"><a href="#">Other</a></li>                    
+				  </ul>
+				</div> <!-- End of question 6 -->
+                
+                <br>
+                
+                <!-- Question 7 -->
+				<h4>7.	Do you think Tom Cruise is a great actor?</h4>
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select from the drop-down menu
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q7">
+				    <li value="1"><a href="#">I don’t know, as I don’t watch his movies</a></li>
+				    <li value="2"><a href="#">He is okay</a></li>
+				    <li value="3"><a href="#">Yes</a></li>
+						<li value="4"><a href="#">No</a></li>
+				    <li value="5"><a href="#">No comment, as I am not familiar with Tom Cruise</a></li>                    
+				  </ul>
+				</div> <!-- End of question 7 -->
+                    
+                <br>
+                
+                <!-- Question 8 -->
+				<h4>8. What type of pet animal would you adopt?</h4>
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select from the drop-down menu
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q8">
+				    <li value="1"><a href="#">Fish</a></li>
+				    <li value="2"><a href="#">Cat</a></li>
+				    <li value="3"><a href="#">Dog</a></li>
+						<li value="4"><a href="#">Bird</a></li>
+				    <li value="5"><a href="#">Hamster</a></li>                    
+				  </ul>
+				</div> <!-- End of question 8 -->
+                
+                <br>
+                
+                <!-- Question 9 -->
+				<h4>9.	What type of fitness exercise do you prefer?</h4>
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select from the drop-down menu
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q9">
+				    <li value="1"><a href="#">Weightlifting/bodybuilding</a></li>
+				    <li value="2"><a href="#">Crossfit</a></li>
+				    <li value="3"><a href="#">Cycling</a></li>
+						<li value="4"><a href="#">Running</a></li>
+						<li value="5"><a href="#">Other</a></li>
+				  </ul>
+				</div> <!-- End of question 9 -->
+                
+                <br>
+                
+                <!-- Question 10 -->
+				<h4>10.	What is your main source of protein?</h4>
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select from the drop-down menu
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q10">
+				    <li value="1"><a href="#">Beans</a></li>
+				    <li value="2"><a href="#">Eggs</a></li>
+				    <li value="3"><a href="#">Beef</a></li>
+						<li value="4"><a href="#">Poultry</a></li>
+						<li value="5"><a href="#">Seafood</a></li>
+				  </ul>
+				</div> <!-- End of question 10 -->
+		</div>
+	</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        	<span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> <!-- End of Modal -->
+
+<!-- Capturing users chooice -->
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<script type="text/javascript" src=".\assets\javascript\script.js"></script>
+</body>
+</html>
