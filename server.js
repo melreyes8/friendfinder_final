@@ -45,7 +45,7 @@ var connection = mysql.createConnection({
 //   res.sendFile(path.join(__dirname, ".\app\public\survey.html"));
 // });
 
-app.post('/submit', function(req, res){
+app.post('/friends', function(req, res){
   // res.json(req.body);
   
   connection.query(
@@ -53,6 +53,26 @@ app.post('/submit', function(req, res){
     [req.body.person_name, req.body.photo, req.body.q1_scale, req.body.q2_scale, req.body.q3_scale, req.body.q4_scale, req.body.q5_scale, req.body.q6_scale, req.body.q7_scale, req.body.q8_scale, req.body.q9_scale, req.body.q10_scale],
     function(err, response) {
       res.redirect('/');
+      var bestMatch = {
+        person_name: "",
+        photo: "",
+        frienddifference: Infinity
+      };
+      // Here we take the result of the user survey and parse it
+      var userData = req.body;
+      var userScores = userData.scores;
+      // This variable will calculate the diffirence between the usesScores and scores of each user in the database
+      var totalDifference;
+      // Here we looped through all the friend possiblities in the database
+      for(var i = 0; i < friends.length; i++){
+        var currentFriend = friends[i];
+        totalDifference = 0;
+
+        console.log(currentFriend.person_name);
+
+      // Add below the codes for the loop for the scores
+
+      }
     }
     );
   });
